@@ -19,7 +19,7 @@ export default function Nav() {
   const selectedButton = getSelectedButton();
 
   return (
-    <nav className="flex items-center space-x-4">
+    <nav className="flex flex-col md:flex-row items-center space-x-4">
       <Link href="/">
         <Button variant="ghost" className={`hover:bg-[var(--color-gold-accent)]/80 ${selectedButton === 'home' ? 'bg-[var(--color-gold-accent)]' : ''}`}>Home</Button>
       </Link>

@@ -14,7 +14,7 @@ export const courses = [
     shortDesc: "Master advanced techniques in color and lighting.",
     fullDesc: "Dive deep into color palettes, lighting design, and creating stunning interiors with professional techniques.",
     duration: "1 Year",
-    redirectsTo: "/courses/interior-design-basics",
+    redirectsTo: "/courses/interior-architecture-design-diploma",
     image: "/images/interior_architecture_thumbnail.jpg"
   },
   {
@@ -23,7 +23,7 @@ export const courses = [
     shortDesc: "Explore eco-friendly materials and practices.",
     fullDesc: "Learn about sustainable design practices, eco-friendly materials, and creating green interiors.",
     duration: "2 years",
-    redirectsTo: "/courses/interior-design-basics",
+    redirectsTo: "/courses/advanced-diploma-in-interior-architecture-design",
     image: "/images/advanced_interior_architecture_thumbnail.jpg"
   },
   {
@@ -32,7 +32,7 @@ export const courses = [
     shortDesc: "Explore eco-friendly materials and practices.",
     fullDesc: "Learn about sustainable design practices, eco-friendly materials, and creating green interiors.",
     duration: "6 Months",
-    redirectsTo: "/courses/interior-design-basics",
+    redirectsTo: "/courses/advanced-diploma-in-kitchen-and-furniture-design",
     image: "/images/kitchen_furniture_thumbnail.jpg"
   },
   {
@@ -41,7 +41,7 @@ export const courses = [
     shortDesc: "Explore eco-friendly materials and practices.",
     fullDesc: "Learn about sustainable design practices, eco-friendly materials, and creating green interiors.",
     duration: "6 Months",
-    redirectsTo: "/courses/interior-design-basics",
+    redirectsTo: "/courses/advanced-diploma-in-interior-styling",
     image: "/images/interior_styling_thumbnail.jpg"
   },
   {
@@ -50,7 +50,7 @@ export const courses = [
     shortDesc: "Explore eco-friendly materials and practices.",
     fullDesc: "Learn about sustainable design practices, eco-friendly materials, and creating green interiors.",
     duration: "6 Months",
-    redirectsTo: "/courses/interior-design-basics",
+    redirectsTo: "/courses/diploma-in-luxury-interior-design",
     image: "/images/luxury_interior_design_thumbnail.jpg"
   },
   {
@@ -59,7 +59,7 @@ export const courses = [
     shortDesc: "Explore eco-friendly materials and practices.",
     fullDesc: "Learn about sustainable design practices, eco-friendly materials, and creating green interiors.",
     duration: "6 Months",
-    redirectsTo: "/courses/interior-design-basics",
+    redirectsTo: "/courses/interior-visualisation-course",
     image: "/images/3d_visualisation_thumbnail.jpg"
   },
   {
@@ -68,7 +68,7 @@ export const courses = [
     shortDesc: "Explore eco-friendly materials and practices.",
     fullDesc: "Learn about sustainable design practices, eco-friendly materials, and creating green interiors.",
     duration: "8 Months",
-    redirectsTo: "/courses/interior-design-basics"  ,
+    redirectsTo: "/courses/advanced-rendering-and-real-time-visualisation",
     image: "/images/advanced_rendering_thumbnail.jpg"
   }
 ];

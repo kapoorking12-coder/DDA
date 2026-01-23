@@ -19,10 +19,10 @@ export default function InteriorDesignBasics() {
         <div className="absolute inset-0 bg-[var(--color-gold-accent)]/10"></div>       
         <div className="relative z-10 text-center text-[var(--color-champagne-cream)] px-4 max-w-4xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Interior Design Basics
+            Interior Architecture Design
           </h1>
           <p className="text-xl md:text-2xl">
-            Learn the fundamentals of interior design, including color theory, space planning, and basic principles to create beautiful and functional spaces.
+            Learn the fundamentals of interior architecture design, including color theory, space planning, and advanced principles to create beautiful and functional spaces.
           </p>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function InteriorDesignBasics() {
               <div className="space-y-6 text-[var(--color-charcoal)]">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Duration</h3>
-                  <p>8 weeks (2 hours per session, 3 sessions per week)</p>
+                  <p>1 Year</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Curriculum</h3>
@@ -81,11 +81,11 @@ export default function InteriorDesignBasics() {
                     <div className="border-t pt-4">
                       <div className="flex justify-between mb-2">
                         <span>Duration:</span>
-                        <span>8 Weeks</span>
+                        <span>1 Year</span>
                       </div>
                       <div className="flex justify-between mb-2">
                         <span>Sessions:</span>
-                        <span>24</span>
+                        <span>52 (3 sessions of 2 hrs per week)</span>
                       </div>
                       <div className="flex justify-between mb-2">
                         <span>Mode:</span>

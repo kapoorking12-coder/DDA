@@ -35,7 +35,7 @@ export default function CoursesPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Explore Our Courses</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {courses.map(course => (
-              <Link key={course.id} href="/courses/interior-design-basics" className="block">
+              <Link key={course.id} href={course.redirectsTo} className="block">
                 <Card className="h-full flex flex-col cursor-pointer hover:shadow-lg transition-shadow">
                   <CardHeader>
                     <CardTitle>{course.title}</CardTitle>
