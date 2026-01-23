@@ -23,6 +23,7 @@ export default function EnrollmentForm({ courseName, trigger, open: externalOpen
     email: "",
     phone: "",
     message: "",
+    courseName: courseName || "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -49,14 +50,13 @@ export default function EnrollmentForm({ courseName, trigger, open: externalOpen
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          courseName: courseName || "Course",
           ...formData,
         }),
       });
 
       if (response.ok) {
         alert("Enrollment submitted! Email sent successfully.");
-        setFormData({ name: "", email: "", phone: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", message: "" , courseName: courseName || ""});
         setIsOpen(false);
       } else {
         alert("Failed to send email. Please try again.");
