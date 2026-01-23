@@ -33,8 +33,8 @@ export default function Footer() {
             </div>
             <div>
               <p className="text-sm font-semibold mb-1">Phone</p>
-              <a href="tel:+918882545658" className="hover:text-[var(--color-gold-accent)] transition-colors">
-                +91 8882545658
+              <a href="#" className="hover:text-[var(--color-gold-accent)] transition-colors">
+                +91 9211939707
               </a>
             </div>
           </div>
