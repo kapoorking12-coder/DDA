@@ -3,7 +3,6 @@ import Link from "next/link";
 import { testimonials } from "@/lib/Metadata";
 import { Button } from "@/components/ui/button";
 import { notFound } from "next/navigation";
-import { metadata } from './../../layout';
 
 interface TestimonialDetailPageProps {
   params: Promise<{ id: string }>;
@@ -69,20 +68,11 @@ export default async function TestimonialDetailPage({
               <h1 className="text-3xl font-bold text-[var(--color-charcoal)] mb-2">
                 {testimonial.name}
               </h1>
-              <p className="text-xl text-[var(--color-gold-accent)] font-semibold mb-4">
-                {testimonial.title}
-              </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
                   <p className="text-sm text-gray-600">Course Taken</p>
                   <p className="text-lg font-semibold text-[var(--color-charcoal)]">
                     {testimonial.courseTaken}
-                  </p>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-600">Years of Experience</p>
-                  <p className="text-lg font-semibold text-[var(--color-charcoal)]">
-                    {testimonial.yearsOfExperience}
                   </p>
                 </div>
               </div>
@@ -143,9 +133,8 @@ export default async function TestimonialDetailPage({
                   <h3 className="font-bold text-[var(--color-charcoal)]">
                     {test.name}
                   </h3>
-                  <p className="text-sm text-gray-600 mb-3">{test.title}</p>
                   <p className="text-sm text-gray-700 line-clamp-2">
-                    {test.shortReview}
+                    {test.fullReview}
                   </p>
                 </div>
               </Link>

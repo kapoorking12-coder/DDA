@@ -2,14 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardImage } from "@/components/ui/card";
+import { Card,  CardHeader, CardTitle, CardImage } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import ImageSlider from "@/components/ImageSlider";
-import TestimonialCard from "@/components/TestimonialCard";
 
 import { cn } from "@/lib/utils"
 import { courses } from "@/lib/Metadata";
-import { testimonials } from "@/lib/testimonials";
 
 const studentWorkImages = [
   "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
