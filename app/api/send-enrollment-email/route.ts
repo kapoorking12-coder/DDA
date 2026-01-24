@@ -34,7 +34,7 @@ export async function POST(request: NextRequest) {
     // Email to admin
     const adminMailOptions = {
       from: process.env.EMAIL_USER,
-      to: "kapoorking12@gmail.com",
+      to: "delhidesignacademy@gmail.com",
       subject: `New Enrollment: ${data.courseName}`,
       html: `
         <h2>New Course Enrollment</h2>
